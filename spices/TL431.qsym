@@ -1,0 +1,17 @@
+ÿØÿÛ«symbol TL431
+  «type: X»
+  «description: Machine generated symbol for TL431»
+  «library file: |.SUBCKT TL431 1 2 3\nV1 6 7 DC 1.4V\nI1 2 4 1E-3\nR1 1 2 1.2E6\nR2 4 2 RMOD 2.495E3\nR3 5 7 .2\nD1 3 6 DMOD1\nD2 2 3 DMOD1\nD3 2 7 DMOD2\nE1 5 2 POLY(2) (4,2) (1,2) 0 710 -710\n.MODEL RMOD RES (TC1=1.4E-5 TC2=-1E-6)\n.MODEL DMOD1 D (RS=.3)\n.MODEL DMOD2 D (RS=1E-6)\n.ENDS»
+  «shorted pins: false»
+  «line (-200,100) (-150,150) 0 0 0x1000000 -1 -1»
+  «line (-150,150) (150,150) 0 0 0x1000000 -1 -1»
+  «line (150,150) (200,200) 0 0 0x1000000 -1 -1»
+  «line (-40,0) (-390,0) 0 0 0x1000000 -1 -1»
+  «rect (-400,-400) (400,400) 0 0 0 0xff0000 0x2e9ffff -1 0 -1»
+  «triangle (-200,-200) (200,-200) (0,150) 0 0 0x1000000 0x2000000 -1 -1»
+  «text (0,300) 1 0 0 0x1000000 -1 -1 "X1"»
+  «text (0,-300) 1 0 0 0x1000000 -1 -1 "TL431"»
+  «pin (-400,0) (20,0) 1 15 0 0x0 -1 "1"»
+  «pin (0,-400) (-20,0) 1 15 0 0x0 -1 "2"»
+  «pin (0,400) (0,0) 1 15 0 0x0 -1 "3"»
+»
