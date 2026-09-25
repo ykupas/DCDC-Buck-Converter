@@ -1,5 +1,6 @@
 # DCDC-Buck-Converter
-Qspice simulation of a DC-DC Buck Converter using analog eletronics.
+
+Qspice simulation of a DC-DC Buck Converter (36V to 5V @ 5A max) using analog eletronics.
 
 ## Triangle Wave Oscilattor
 
